@@ -1,6 +1,6 @@
 <%-- 
-    Document   : 四則演算
-    Created on : 2018/06/21, 14:39:12
+    Document   : 文字列
+    Created on : 2018/06/21, 15:10:21
     Author     : amuro
 --%>
 
@@ -12,16 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-                 <%
-
-int num = 5;
-num = 5;
-int BASE = 5; 
-BASE = 5;
-
-int RESULT = (num+BASE);
-out.print(RESULT);
-
-%>
-    </body>
+        <%
+            final String NAME = "GROOVE";
+            final String num ="-";
+            final String Cheer = "JOB";
+            
+out.print(NAME+num+Cheer);%>  </body>
 </html>
